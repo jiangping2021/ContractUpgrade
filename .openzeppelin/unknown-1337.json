@@ -1,0 +1,124 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0xAB97e06c729C1bEC6AAc21B55b9935BD260ADeEC",
+    "txHash": "0x74eb816564863c2e2d192112058396bbc5f4017bbe3fc370db64f6d4bad21b4e"
+  },
+  "proxies": [
+    {
+      "address": "0x30753E4A8aad7F8597332E813735Def5dD395028",
+      "txHash": "0xa2aae519fbe692bfa9b4c3285d286a6e50fe54e7c889506412f1f38ea6db409b",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x8f0483125FCb9aaAEFA9209D8E9d7b9C8B9Fb90F",
+      "txHash": "0x564a694f0af7232d34edd74e9ad0c34c5d1021e27a17abec4c8388631597a932",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xAa588d3737B611baFD7bD713445b314BD453a5C8",
+      "txHash": "0xb2c1bd7118dd8be783459739bbdf60ef3cdb1327e7f82045d273549894fc778d",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xb238C124b879f935dbE1492A89F21c71e92504A5",
+      "txHash": "0x9abcacb0c3d73c9cdd00a4fe60715bf6a12a3e6b5f724177772b15232768ad2e",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xbaa58dDBbbCcad36F2151FFA40d03c873E418e15",
+      "txHash": "0x76f39664ec918e8650ff2e39ac579f773ac32e9c59f63e9a64f18238ad730d1b",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x2aE489C5Bc9d1A0a78eb3CAd2E4C8658784bD518",
+      "txHash": "0x243b49575a50f87955c7e89aed290539b541a4b9030741bcc1cf9672ec0c0f25",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xf70Dd0e0870eA710a2C96f202Ce6E086183e86e3",
+      "txHash": "0x8ad7c0d35a4c1ab6eebc3ac8530434c92790d1b5b1037353be8888ea6cdc2654",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xF76a77E47EE9B7bbBC53a7D2DCf7951476352471",
+      "txHash": "0x335d757d4c567798d9f58f61db5e6727ce952fa6f803d7c491d2eb8cadf591f1",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x3C1bb7C45c05205f8B4980D90279B4A12b381e52",
+      "txHash": "0x22e80e1ad288005dda36ea89041946c7391491404e2224d97e51e2d10cf0a644",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x30b40aB2F6B1e7Ff04C91623745b119A341Fc37a",
+      "txHash": "0x81081735640c128e16d471cc7204521980769d1b7077899c6d9abbf17f06885f",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xa39d96aB63e819f1A42d686b28Cba924e34bc3b9",
+      "txHash": "0xf00928e9274505b2086649bc5ccd4578fea3d57d08faac8b708868500859a124",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x573e1619285e9703F532e54a4AbA69EFD7e318ce",
+      "txHash": "0xeb42eb5a50b335814a7e3402340cf2eb1f8ae335fd688ec786623488f166eb1d",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xFe3A839a0D50D846081311Fb9F87B0Bb8b858923",
+      "txHash": "0x15f1f8ed7030bd040432463e2d6881829749e2c1571e59eb6cea9eae0a6795f3",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xA63134E6266760140b4CC09E4e4F300833089CEA",
+      "txHash": "0x9a6de07092e1229fca2814bfceddb293e7dcd1cdb4dec1929c247093288fb7ae",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x17BEe73CF14d8a7e2237A85d1F7245558a29E619",
+      "txHash": "0xbeb35cacb0cc7703514018dd89ba613f089a7f73553808cdbfa34709f5d855d6",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "a65cdfa308566facef6065beb9e631bc7782c0699e2093fd7f5bc24c50583bce": {
+      "address": "0x53d0c1265d727a905FB7CBfdEC520859FEC0D098",
+      "txHash": "0x1a32bf54b73c75630d423c751f622f000cbb92f586c53cf969fa7a429367491b",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Box",
+            "label": "value",
+            "type": "t_uint256",
+            "src": "Box.sol:6"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          }
+        }
+      }
+    },
+    "a8c34e30dd42bfa0d900135a30dbc42f877332f6d3aa29d69727e5d34d15e657": {
+      "address": "0x1FaCF7B66AC9C0747E816a8Da09c0870124A34fE",
+      "txHash": "0x178298952db6e339599af4d4768cf4abc36ea178e0cb97d465a394f6aa11f763",
+      "layout": {
+        "storage": [
+          {
+            "contract": "BoxV2",
+            "label": "value",
+            "type": "t_uint256",
+            "src": "BoxV2.sol:7"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          }
+        }
+      }
+    }
+  }
+}
