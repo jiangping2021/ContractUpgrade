@@ -1,0 +1,4 @@
+# ContractUpgrade
+
+npx truffle test
+
